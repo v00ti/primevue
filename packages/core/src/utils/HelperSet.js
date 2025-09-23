@@ -21,7 +21,14 @@ export default class {
     }
     get(parentInstance, slots) {
         const children = this._get(parentInstance, slots);
-        const computed = children ? this._recursive([...this.helpers], children) : null;
+        let computed = children ? this._recursive([...this.helpers], children) : null;
+
+        if (this.type === 'Column') {
+           computed = computed.filter(
+                (item, index, self) =>
+                    index === self.findIndex(c => c.props?.field === item.props?.field)
+            );
+        }
 
         return isNotEmpty(computed) ? computed : null;
     }
