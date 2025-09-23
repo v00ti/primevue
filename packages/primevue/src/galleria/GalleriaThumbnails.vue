@@ -421,9 +421,9 @@ export default {
             }
         },
         changePageOnTouch(e, diff) {
-            const touchThreshold = 10
+            const touchThreshold = 10;
 
-            if(Math.abs(diff) < touchThreshold) {
+            if (Math.abs(diff) < touchThreshold) {
                 // only a click/tap
                 return;
             }
