@@ -355,8 +355,8 @@
         "@primeuix/styled": "catalog:",
         "@primeuix/utils": "catalog:",
         "@primeuix/styles": "catalog:",
-        "@primevue/core": "4.3.9",
-        "@primevue/icons": "4.3.9"
+        "@primevue/core": "workspace:*",
+        "@primevue/icons": "workspace:*"
     },
     "engines": {
         "node": ">=12.11.0"
