@@ -352,9 +352,9 @@
         "vitest": "^0.29.8"
     },
     "dependencies": {
-        "@primeuix/styled": "catalog:",
-        "@primeuix/utils": "catalog:",
-        "@primeuix/styles": "catalog:",
+        "@primeuix/styled": "^0.7.2",
+        "@primeuix/utils": "^0.6.1",
+        "@primeuix/styles": "^1.2.3",
         "@primevue/core": "^4.3.9",
         "@primevue/icons": "^4.3.9"
     },
