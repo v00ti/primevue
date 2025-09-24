@@ -54,7 +54,7 @@
     "dependencies": {
         "@primeuix/utils": "catalog:",
         "@primeuix/forms": "catalog:",
-        "@primevue/core": "workspace:*"
+        "@primevue/core": "4.3.9"
     },
     "engines": {
         "node": ">=12.11.0"
